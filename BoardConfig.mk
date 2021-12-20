@@ -23,6 +23,7 @@ TARGET_OTA_ASSERT_DEVICE := beyond0lte
 
 # Kernel
 TARGET_KERNEL_CONFIG := beyond0lte_defconfig
+BOARD_DTBO_CFG := $(COMMON_PATH)/configs/dtboimg.cfg
 
 # inherit from the proprietary version
 -include vendor/samsung/beyond0lte/BoardConfigVendor.mk
