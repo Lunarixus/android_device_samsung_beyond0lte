@@ -22,7 +22,7 @@ DEVICE_PATH := device/samsung/beyond0lte
 TARGET_OTA_ASSERT_DEVICE := beyond0lte
 
 # Kernel
-TARGET_KERNEL_CONFIG := beyond0lte_defconfig
+TARGET_KERNEL_CONFIG := exynos9820-beyond0lte_defconfig
 BOARD_DTBO_CFG := $(COMMON_PATH)/configs/dtboimg.cfg
 
 # inherit from the proprietary version
